@@ -56,3 +56,50 @@
   color: #2d2d2d;
   margin-bottom: 30px;
 }
+
+.layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+.form-card,
+.contractor-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.form-section {
+  margin-top: 20px;
+}
+
+.form-section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.service-tag {
+  color: #5fa834;
+  font-weight: 500;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.checkbox {
+  font-size: 14px;
+}
